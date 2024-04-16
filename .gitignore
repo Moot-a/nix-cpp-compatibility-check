@@ -2,4 +2,4 @@
 .direnv
 .vscode
 
-bin/*
+bin/

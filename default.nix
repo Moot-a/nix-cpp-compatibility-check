@@ -1,6 +1,5 @@
 { pkgs ? import <nixpkgs> {} }:
 
-
 # Nix derivation for basic C++ project using clang
 with pkgs; clangStdenv.mkDerivation {
   name = "hello";

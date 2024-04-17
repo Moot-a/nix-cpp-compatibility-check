@@ -1,6 +1,6 @@
 [
     {
-        "directory": "/home/moota/Workdirs/CPP/nix-cpp-compatibility-check",
+        "directory": "/home/moota/Workdirs/cpp_filrouge_isc_mota_da_silva",
         "arguments": [
             "/nix/store/a1bf9m79xr32a55idbbjbjpylp1xphag-clang-11.1.0/bin/clang++",
             "-fPIC",
@@ -44,9 +44,9 @@
             "-isystem",
             "/nix/store/dcd1zhv56rk0d2z7akzfjgzr076c4jl9-gcc-12.2.0/include/c++/12.2.0/x86_64-unknown-linux-gnu",
             "-Wl,-rpath",
-            "-Wl,/home/moota/Workdirs/CPP/nix-cpp-compatibility-check/outputs/out/lib64",
+            "-Wl,/home/moota/Workdirs/cpp_filrouge_isc_mota_da_silva/outputs/out/lib64",
             "-Wl,-rpath",
-            "-Wl,/home/moota/Workdirs/CPP/nix-cpp-compatibility-check/outputs/out/lib",
+            "-Wl,/home/moota/Workdirs/cpp_filrouge_isc_mota_da_silva/outputs/out/lib",
             "-L/nix/store/yaz7pyf0ah88g2v505l38n0f3wg2vzdj-glibc-2.37-8/lib",
             "-L/nix/store/dcd1zhv56rk0d2z7akzfjgzr076c4jl9-gcc-12.2.0/lib/gcc/x86_64-unknown-linux-gnu/12.2.0",
             "-L/nix/store/yazs3bdl481s2kyffgsa825ihy1adn8f-gcc-12.2.0-lib/x86_64-unknown-linux-gnu/lib",

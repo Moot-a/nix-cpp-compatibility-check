@@ -45,7 +45,7 @@ bool MyClass::initMyDatabse() {
 ```
 
 ### Const
-> Declared by `#define`, separated words with `_`, UPPERCASE
+> Declared by `#define`, separate words with `_`, UPPERCASE
 ```cpp
 #define MYCONST 1
 #define NUMBER_OF_AXES 3
@@ -111,4 +111,7 @@ Might use a documentation generator that would override this
 - A comment should be concise, useful (doesn't repeat the code), in english, necessary. [cprogramming.com : comments](https://www.cprogramming.com/tutorial/comments.html)
 - Use DRY principle, factorise code that is used slightly differently in multiple functions into methods/functions.
 - Use KISS principle, prefer multiple easy functions (macros?) rather than long and convoluted functions.
-- 
+- Variable names have to be Descriptive, Concise and Clear
+- Other ressources include :
+    - Code smell article on Wikipedia
+    - Object oriented design article on Wikipedia

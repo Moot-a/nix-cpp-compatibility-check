@@ -8,6 +8,7 @@
 #include <iostream>
 #include <span>
 
+#include "Header.hpp"
 
 struct Foo
 {
